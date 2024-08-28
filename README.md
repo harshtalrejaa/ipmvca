@@ -1,17 +1,20 @@
-##Tile Fault Detection System
-#Overview
+Tile Fault Detection System
+
+Overview
 This project aims to develop an automated system for detecting faults in tiles, such as cracks and discolorations, to improve quality control and efficiency. The current visual inspection method is slow and error-prone, and this system seeks to replace it with a highly accurate, real-time fault detection mechanism using image processing techniques.
 
-#Features
+
+Features
 Automated Fault Detection: Accurately identifies faults like cracks and discolorations in tile images.
 Real-Time Processing: Provides near-instantaneous analysis and results.
 Image Processing Pipeline: Includes grayscale conversion, edge detection, dilation, hole filling, and small object removal.
 Fault Highlighting: Overlays detected faults onto the original image for easy visualization.
 
-#Prerequisites
+Prerequisites
 Python: Ensure Python 3.x is installed.
 
-#Usage
+Usage
+
 Load the Image: Store your tile image in a variable for processing.
 
 Convert to Grayscale: Use the rgb2gray function to convert the image to grayscale.
@@ -27,6 +30,4 @@ Remove Small Objects: Remove small objects from the filled edges based on a spec
 Highlight Faults: Overlay the cleaned edges onto the original image in red to highlight the detected faults.
 
 Visualization: Display the final image with highlighted faults.
-
-#OUTPUT
 
